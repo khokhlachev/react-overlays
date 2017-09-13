@@ -299,7 +299,7 @@ class Modal extends React.Component {
         >
           {backdrop && this.renderBackdrop()}
           {dialog}
-          {additionalChildren && additionalChildren}
+          {additionalChildren && additionalChildren()}
         </div>
       </Portal>
     );
